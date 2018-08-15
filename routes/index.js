@@ -2,19 +2,15 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-	res.render('home');
+	res.render('index');
 });
 
 router.get('/about', (req, res) => {
-	res.send('about page');
-});
-
-router.get('/projects', (req, res) => {
-	res.send('projects page');
+	res.render('about');
 });
 
 router.get('/project/:id', (req, res) => {
-	res.send(`project ${req.params.id}`);
+	res.render('project');
 });
 
 module.exports = router;

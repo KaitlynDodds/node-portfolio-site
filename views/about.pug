@@ -1,0 +1,38 @@
+extends layout.pug
+
+block main
+    .off-canvas-content(data-off-canvas-content='')
+        .title-bar.hide-for-large
+            .title-bar-left
+                button.menu-icon(type='button', data-toggle='my-info')
+                span.title-bar-title Josh Sullivan
+        
+        include partials/back-bar.pug
+        
+        article.grid-container.portfolio-intro.portfolio-project
+            .grid-x
+                .cell.small-6.medium-9.large-9
+                    h1 Josh Sullivan
+                    p.lead.text-light
+                        | Enamel pin shaman polaroid bitters. Venmo narwhal ut tattooed voluptate next level cred heirloom aute reprehenderit
+                        | small batch jianbing whatever wayfarers 8-bit. Qui ennui nostrud ut listicle bespoke raclette commodo keffiyeh
+                        | lomo labore. Fashion axe fixie aute, occaecat aesthetic twee cray anim la croix keytar mustache raclette vinyl.
+                    .portfolio-bio
+                        p
+                            | Cold-pressed disrupt offal hella unicorn, typewriter ut VHS polaroid tumeric lo-fi photo booth vinyl aliquip raclette. Everyday
+                            | carry keytar edison bulb gluten-free, laborum pabst bitters selvage cardigan. Excepteur tilde pop-up YOLO leggings
+                            | stumptown knausgaard VHS distillery chambray forage. Viral food truck hexagon vinyl, consectetur gentrify marfa
+                            | VHS subway tile consequat before they sold out veniam shabby chic meditation knausgaard.
+                .cell.portfolio-meta.small-6.medium-2.large-3
+                    h6 Skills
+                    ul
+                        li HTML
+                        li CSS
+                        li JavaScript
+                    h6 Contact Info
+                    ul
+                        li 555-555-1234
+                        li email@email.com
+                    a.button.expanded(href='') LinkedIn
+                    a.button.expanded(href='') GitHub
+                    a.button.expanded(href='') Twitter
