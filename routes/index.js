@@ -9,12 +9,8 @@ router.get('/about', (req, res) => {
 	res.render('about');
 });
 
-router.get('/projects', (req, res) => {
-	res.send('projects page');
-});
-
 router.get('/project/:id', (req, res) => {
-	res.send(`project ${req.params.id}`);
+	res.render('project');
 });
 
 module.exports = router;
