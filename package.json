@@ -1,0 +1,24 @@
+{
+  "name": "node-portfolio-site",
+  "version": "1.0.0",
+  "description": "Create a portfolio site to showcase the great projects you've built. The site will contain a modern landing page, an about page where you'll have a chance to share contact info, practice your elevator pitch, and a series of project pages to show off and detail at least your first five projects from this Techdegree.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaitlynDodds/node-portfolio-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaitlynDodds/node-portfolio-site/issues"
+  },
+  "homepage": "https://github.com/KaitlynDodds/node-portfolio-site#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "npm": "^6.4.0",
+    "pug": "^2.0.3"
+  }
+}
