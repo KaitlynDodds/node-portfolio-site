@@ -12,7 +12,9 @@
             "live_link": "https://kaitlyndodds.github.io/Pagination-and-Content-Filter",
             "github_link": "https://github.com/KaitlynDodds/Pagination-and-Content-Filter",
             "image_urls": [
-                ""
+                "pagination-content-filter-profile.png",
+                "pagination-content-filter-display-1.png",
+                "pagination-content-filter-display-2.png"
             ]
         },
         {
@@ -27,7 +29,10 @@
             "live_link": "https://interactive-form-treehouse.herokuapp.com/index.html",
             "github_link": "https://github.com/KaitlynDodds/interactive-form",
             "image_urls": [
-                ""
+                "interactive-form-profile.png",
+                "interactive-form-display-1.png",
+                "interactive-form-display-2.png",
+                "interactive-form-display-3.png"
             ]
         },
         {
@@ -42,7 +47,10 @@
             "live_link": "https://kaitlyndodds.github.io/tic-tac-toe/",
             "github_link": "https://github.com/KaitlynDodds/tic-tac-toe",
             "image_urls": [
-                ""
+                "tic-tac-toe-profile.png",
+                "tic-tac-toe-display-1.png",
+                "tic-tac-toe-display-2.png",
+                "tic-tac-toe-display-3.png"
             ]
         },
         {
@@ -58,7 +66,10 @@
             "live_link": "https://kaitlyndodds.github.io/Public-API-Employee-Directory/",
             "github_link": "https://github.com/KaitlynDodds/Public-API-Employee-Directory",
             "image_urls": [
-                ""
+                "public-api-employee-dir-profile.png",
+                "public-api-employee-dir-display-1.png",
+                "public-api-employee-dir-display-2.png",
+                "public-api-employee-dir-display-3.png"
             ]
         },
         {
@@ -90,7 +101,10 @@
             "live_link": "https://guess-the-phrase-game.herokuapp.com/index.html",
             "github_link": "https://github.com/KaitlynDodds/guess-the-phrase-game",
             "image_urls": [
-                ""
+                "guess-the-phrase-profile.png",
+                "guess-the-phrase-display-1.png",
+                "guess-the-phrase-display-2.png",
+                "guess-the-phrase-display-3.png"
             ]
         },
         {
@@ -105,7 +119,9 @@
             "live_link": "https://personal-portfolio-kadodds.herokuapp.com/index.html",
             "github_link": "https://github.com/KaitlynDodds/KaitlynDodds.github.io",
             "image_urls": [
-                ""
+                "personal-portfolio-profile.png",
+                "personal-portfolio-display-1.png",
+                "personal-portfolio-display-2.png"
             ]
         }
     ]
