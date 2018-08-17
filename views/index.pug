@@ -2,10 +2,7 @@ extends layout.pug
 
 block main 
     .off-canvas-content(data-off-canvas-content='')
-        .title-bar.hide-for-large
-            .title-bar-left
-                button.menu-icon(type='button', data-toggle='my-info')
-                span.title-bar-title Kaitlyn Dodds
+        include partials/title-bar.pug
         
         article.grid-container.portfolio-intro
             div
