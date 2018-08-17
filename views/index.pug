@@ -18,13 +18,7 @@ block main
                     .cell 
                         a(href=`/project/${project.id}`)
                             if (project.image_urls[0])
-                                console.log(project.image_urls[0])
                                 img.thumbnail(src=`../public/images/${project.image_urls[0]}`)
                             else 
                                 img.thumbnail(src='https://placehold.it/550x550')
                             h5 #{project.project_name}
-
-//- .cell
-//-     a(href='project.html')
-//-     img.thumbnail(src='https://placehold.it/550x550')
-//-     h5 My Site
