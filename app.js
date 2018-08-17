@@ -24,6 +24,9 @@ app.use(routes);
 app.use((err, req, res, next) => {
 	err.status = 500;
 
+	// user friendly message
+	console.log(err.message);
+
 	res.render('error', { err })
 });
 
@@ -31,6 +34,9 @@ app.use((err, req, res, next) => {
 app.use((req, res, next) => {
 	const err = new Error('Unable to resolve route');
 	err.status = 404;
+
+	// user friendly message
+	console.log(err.message);
 
 	res.render('error', { err });
 });
