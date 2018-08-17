@@ -1,0 +1,128 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Pagination-and-Content-Filter",
+            "description": "Use progressive enhancement to enhance the usability of a web page that has too much information.",
+            "technologies": [
+                "HTML",
+                "JavaScript",
+                "CSS"
+            ],
+            "live_link": "https://kaitlyndodds.github.io/Pagination-and-Content-Filter",
+            "github_link": "https://github.com/KaitlynDodds/Pagination-and-Content-Filter",
+            "image_urls": [
+                "pagination-content-filter-profile.png",
+                "pagination-content-filter-display-1.png",
+                "pagination-content-filter-display-2.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "interactive-form",
+            "description": "An interactive registration form for 'FullStack Conf.'. Use JavaScript to enhance the form by adding interactivity. Make the form more user-friendly by providing helpful error messages when the user enters invalid information into the form fields. ",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://interactive-form-treehouse.herokuapp.com/index.html",
+            "github_link": "https://github.com/KaitlynDodds/interactive-form",
+            "image_urls": [
+                "interactive-form-profile.png",
+                "interactive-form-display-1.png",
+                "interactive-form-display-2.png",
+                "interactive-form-display-3.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "tic-tac-toe",
+            "description": "In this project, you'll build a functional, two-person Tic Tac Toe game. You'll use the provided mockups, HTML, CSS and image files to create a game that requires players to add their names, take turns adding an X or O to the game board, and announce when the game ends. You'll need to keep track of the state of the game -- whose turn it is, where the X's and O's are on the board, and whether the game is a draw or, if not, who won and lost.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "https://kaitlyndodds.github.io/tic-tac-toe/",
+            "github_link": "https://github.com/KaitlynDodds/tic-tac-toe",
+            "image_urls": [
+                "tic-tac-toe-profile.png",
+                "tic-tac-toe-display-1.png",
+                "tic-tac-toe-display-2.png",
+                "tic-tac-toe-display-3.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Public-API-Employee-Directory",
+            "description": "Use the Random User Generator API to grab information for 12 random 'employees', and use that data to build a prototype for an employee directory. You’ll request a JSON object from the API and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML",
+                "JSON"
+            ],
+            "live_link": "https://kaitlyndodds.github.io/Public-API-Employee-Directory/",
+            "github_link": "https://github.com/KaitlynDodds/Public-API-Employee-Directory",
+            "image_urls": [
+                "public-api-employee-dir-profile.png",
+                "public-api-employee-dir-display-1.png",
+                "public-api-employee-dir-display-2.png",
+                "public-api-employee-dir-display-3.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "node-content-scraper",
+            "description": "A Node.js command line application that goes to an e-commerce site to get the latest prices and save them to a spreadsheet (CSV format).",
+            "technologies": [
+                "JavaScript",
+                "Node",
+                "npm",
+                "Crawler",
+                "json2csv",
+                "csv"
+            ],
+            "github_link": "https://github.com/KaitlynDodds/node-content-scraper",
+            "image_urls": [
+                ""
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "guess-the-phrase-game",
+            "description": "Fun guess the phrase game (mimics wheel of fortune) created in html, css, and vanilla js.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://guess-the-phrase-game.herokuapp.com/index.html",
+            "github_link": "https://github.com/KaitlynDodds/guess-the-phrase-game",
+            "image_urls": [
+                "guess-the-phrase-profile.png",
+                "guess-the-phrase-display-1.png",
+                "guess-the-phrase-display-2.png",
+                "guess-the-phrase-display-3.png"
+            ]
+        },
+        {
+            "id": 6,
+            "project_name": "personal-portfolio-site",
+            "description": "Personal portfolio site",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://personal-portfolio-kadodds.herokuapp.com/index.html",
+            "github_link": "https://github.com/KaitlynDodds/KaitlynDodds.github.io",
+            "image_urls": [
+                "personal-portfolio-profile.png",
+                "personal-portfolio-display-1.png",
+                "personal-portfolio-display-2.png"
+            ]
+        }
+    ]
+}
