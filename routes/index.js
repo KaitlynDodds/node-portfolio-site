@@ -1,8 +1,13 @@
-const express = require('express');
-const router = express.Router();
+const express 		= require('express');
+const router 		= express.Router();
+
+const { projects } 	= require('../data.json');
+
+/* Routes
+***********/
 
 router.get('/', (req, res) => {
-	res.render('index');
+	res.render('index', { projects });
 });
 
 router.get('/about', (req, res) => {
@@ -10,7 +15,8 @@ router.get('/about', (req, res) => {
 });
 
 router.get('/project/:id', (req, res) => {
-	res.render('project');
+	const project = projects[req.params.id];
+	res.render('project', { project });
 });
 
 module.exports = router;

@@ -2,37 +2,48 @@ extends layout.pug
 
 block main
     .off-canvas-content(data-off-canvas-content='')
-        .title-bar.hide-for-large
-            .title-bar-left
-                button.menu-icon(type='button', data-toggle='my-info')
-                span.title-bar-title Josh Sullivan
+        include partials/title-bar.pug
         
         include partials/back-bar.pug
         
         article.grid-container.portfolio-intro.portfolio-project
             .grid-x
                 .cell.small-6.medium-9.large-9
-                    h1 Josh Sullivan
+                    
+                    h1 Kaitlyn Dodds
+                    
                     p.lead.text-light
-                        | Enamel pin shaman polaroid bitters. Venmo narwhal ut tattooed voluptate next level cred heirloom aute reprehenderit
-                        | small batch jianbing whatever wayfarers 8-bit. Qui ennui nostrud ut listicle bespoke raclette commodo keffiyeh
-                        | lomo labore. Fashion axe fixie aute, occaecat aesthetic twee cray anim la croix keytar mustache raclette vinyl.
+                        | Full Stack Developer
+                    
                     .portfolio-bio
                         p
-                            | Cold-pressed disrupt offal hella unicorn, typewriter ut VHS polaroid tumeric lo-fi photo booth vinyl aliquip raclette. Everyday
-                            | carry keytar edison bulb gluten-free, laborum pabst bitters selvage cardigan. Excepteur tilde pop-up YOLO leggings
-                            | stumptown knausgaard VHS distillery chambray forage. Viral food truck hexagon vinyl, consectetur gentrify marfa
-                            | VHS subway tile consequat before they sold out veniam shabby chic meditation knausgaard.
+                           | A motivated individual eager to contribute to the success of a team and build cutting edge solutions to difficult problems. An application developer with a strong interest in secure development practices. An enthusiastic developer striving to making impactful changes in the work that she does.
+
                 .cell.portfolio-meta.small-6.medium-2.large-3
+                   
                     h6 Skills
                     ul
+                        li JavaScript
+                        li jQuery
+                        li Node
+                        li ExpressJS
+                        li MongoDB
+                        li Bootstrap
+                        li Semantic UI
+                        li Git 
+                        li Microsoft Azure 
+                        li Amazon Web Services 
                         li HTML
                         li CSS
-                        li JavaScript
+                        li PowerShell
+                        li Python
+                        li C#
+                        li Java
+
                     h6 Contact Info
                     ul
-                        li 555-555-1234
-                        li email@email.com
-                    a.button.expanded(href='') LinkedIn
-                    a.button.expanded(href='') GitHub
-                    a.button.expanded(href='') Twitter
+                        li 814-574-7018
+                        li kadodds.dev@kadodds.com 
+
+                    a.button.expanded(href='https://www.linkedin.com/in/kaitlyndodds/') LinkedIn
+                    a.button.expanded(href='https://github.com/KaitlynDodds') GitHub
