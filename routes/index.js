@@ -15,7 +15,8 @@ router.get('/about', (req, res) => {
 });
 
 router.get('/project/:id', (req, res) => {
-	res.render('project');
+	const project = projects[req.params.id];
+	res.render('project', { project });
 });
 
 module.exports = router;

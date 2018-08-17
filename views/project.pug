@@ -12,19 +12,28 @@ block main
         article.grid-container.portfolio-intro.portfolio-project
             .grid-x
                 .cell.small-6.medium-9.large-9
-                    h1 Project Name
+                    //- Project name ---------------------------
+                    h1 #{project.project_name}
+
+                    //- Project description --------------------
                     p.lead.text-light
-                        | Lorem ipsum dolor amet. Tumblr health goth culpa forage prism kinfolk. Excepteur church-key kogi thundercats, id tilde
-                        | unicorn live-edge. Before they sold out et quinoa cornhole nostrud, tbh green juice letterpress try-hard excepteur
-                        | iPhone raw denim four loko hot chicken 3 wolf moon
+                        #{project.description}
                 .cell.portfolio-meta.small-6.medium-2.large-3
-                    h6 Technologies
+                    //- List related technologies --------------
+                    h6 Technologies 
                     ul
-                        li HTML
-                        li CSS
-                        li JavaScript
-                    a.button.expanded(href='') Live Demo
-                    a.button.expanded(href='') GitHub Repo
-            img.image(src='https://placehold.it/1200x550')
-            img.image(src='https://placehold.it/1200x550')
-            img.image(src='https://placehold.it/1200x550')
+                        each technology in project.technologies
+                            li= technology   
+                     
+                    //- Links ----------------------------------
+                    a.button.expanded(href=`${project.live_link}`) Live Demo
+                    a.button.expanded(href=`${project.github_link}`) GitHub Repo
+            
+            //- Display images for project -------------------  
+            each link, index in project.image_urls 
+                //- first img is always profile img 
+                if (index > 0)
+                    img.image(src=`../public/images/${link}`)
+                
+            
+//- PLACEHOLDER img.image(src='https://placehold.it/1200x550')
