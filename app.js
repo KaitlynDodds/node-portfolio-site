@@ -1,7 +1,8 @@
-const express = require('express');
-const app = express();
+const express 	= require('express');
+const app 		= express();
 
-const routes = require('./routes');
+const routes 	= require('./routes');
+
 
 /* Setup
 ***********/
@@ -22,7 +23,7 @@ app.use(routes);
 // Catch server errors 
 app.use((err, req, res, next) => {
 	err.status = 500;
-	
+
 	res.render('error', { err })
 });
 
