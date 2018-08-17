@@ -22,8 +22,17 @@ block main
                         each technology in project.technologies
                             li= technology   
                      
-                    a.button.expanded(href=`${project.live_link}`) Live Demo
-                    a.button.expanded(href=`${project.github_link}`) GitHub Repo
+                    if project.live_link
+                        a.button.expanded(href=`${project.live_link}`) Live Demo
+                    else
+                        //- TODO: Disable link (styling)
+                        a Live link not available 
+                    
+                    if project.github_link
+                        a.button.expanded(href=`${project.github_link}`) GitHub Repo
+                    else 
+                        //- TODO: Disable link (styling)
+                        a GitHub link not available 
              
             each link, index in project.image_urls 
                 //- first img is always profile img 
