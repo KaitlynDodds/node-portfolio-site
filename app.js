@@ -16,6 +16,25 @@ app.use('/public', express.static('public'));
 app.use(routes);
 
 
+/* Middleware
+***********/
+
+// Catch server errors 
+app.use((err, req, res, next) => {
+	err.status = 500;
+	
+	res.render('error', { err })
+});
+
+// Catch 404s 
+app.use((req, res, next) => {
+	const err = new Error('Unable to resolve route');
+	err.status = 404;
+
+	res.render('error', { err });
+});
+
+
 /* Serve
 ***********/
  

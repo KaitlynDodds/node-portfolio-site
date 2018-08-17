@@ -1,0 +1,18 @@
+extends layout.pug
+
+block content 
+    .off-canvas-content(data-off-canvas-content='')
+        include partials/title-bar.pug
+
+        include partials/back-bar.pug
+
+        article.grid-container.portfolio-intro
+            div
+            h1 Error: #{err.status}
+            
+            p.lead.text-light
+                | #{err.message}
+        
+        article.grid-container.portfolio-index
+
+            p #{err.stack}

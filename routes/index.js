@@ -16,6 +16,9 @@ router.get('/about', (req, res) => {
 
 router.get('/project/:id', (req, res) => {
 	const project = projects[req.params.id];
+	if (!project) {
+		throw new Error('Unable to find resource');
+	}
 	res.render('project', { project });
 });
 
