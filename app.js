@@ -1,6 +1,8 @@
 const express 	= require('express');
 const app 		= express();
 
+var port 		= process.env.PORT || 3000;
+
 const routes 	= require('./routes');
 
 
@@ -45,6 +47,6 @@ app.use((req, res, next) => {
 /* Serve
 ***********/
  
-app.listen(3000, () => {
+app.listen(port, () => {
 	console.log('Application listening on port 3000');
 });
