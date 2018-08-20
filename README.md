@@ -93,6 +93,10 @@ Create a portfolio site to showcase the great projects you've built. The site wi
 
 Disabled buttons have a gray background and do not respond to hover triggers.
 
+**Site Color Themes**
+
+Changed site color themes (background, text color, link color, etc.)
+
 
 
 **Completed:** N/A    
