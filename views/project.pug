@@ -13,7 +13,7 @@ block content
                     h1 #{project.project_name}
 
                     p.lead.text-light
-                        #{project.description}
+                       | #{project.description}
                 
                 .cell.portfolio-meta.small-6.medium-2.large-3
 
@@ -26,13 +26,13 @@ block content
                         a.button.expanded(href=`${project.live_link}`) Live Demo
                     else
                         //- TODO: Disable link (styling)
-                        a Live link not available 
+                        a.button.expanded(disabled) Live Demo
                     
                     if project.github_link
                         a.button.expanded(href=`${project.github_link}`) GitHub Repo
                     else 
                         //- TODO: Disable link (styling)
-                        a GitHub link not available 
+                        a.button.expanded(disabled) GitHub Repo
              
             each link, index in project.image_urls 
                 //- first img is always profile img 
