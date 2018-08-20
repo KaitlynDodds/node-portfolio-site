@@ -97,7 +97,12 @@ Disabled buttons have a gray background and do not respond to hover triggers.
 
 Changed site color themes (background, text color, link color, etc.)
 
+**Site Fonts**
 
+Changed font styling
+
+* Headings: Poiret One
+* Filler Text and Links: Open Sans Condensed
 
 **Completed:** N/A    
 **Grade:** N/A
