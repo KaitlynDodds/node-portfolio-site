@@ -1,0 +1,88 @@
+/* Site color theme
+***************************/
+
+body {
+    background-color: #fcf8f2; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poiret One', cursive;
+}
+
+p,
+a,
+li,
+.portfolio-breadcrumb a,
+.portfolio-me a,
+a.button {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1,
+.portfolio-meta h6, 
+.portfolio-breadcrumb a,
+.portfolio-project p {
+    color: #006992;
+}
+
+#my-info,
+.title-bar {
+    background-color: #006992;
+}
+
+.thumbnail,
+.portfolio-project .image {
+    border-color: #006992;
+}
+
+.portfolio-me .thumbnail {
+    border-color: #fcf8f2;
+}
+
+p.text-light,
+.portfolio-me a,
+.portfolio-me h5,
+.title-bar-title,
+.title-bar .menu-icon {
+    color: #fcf8f2;
+}
+
+.portfolio-me a:hover,
+.portfolio-breadcrumb a:hover {
+    color: #81C3D7;
+}
+
+p.lead,
+.portfolio-index .cell h5,
+.portfolio-meta ul li {
+    color: #619DB5;
+}
+
+
+/* Button styling
+***************************/
+
+a.button {
+    background-color: #006992;
+    color: #fcf8f2;
+}
+
+a.button:hover {
+    background-color: #81C3D7;
+}
+
+/* Disabled button styling
+***************************/
+
+a.button[disabled] {
+    background-color: #696969;
+}
+
+a.button[disabled]:hover {
+    background-color: #696969;
+}

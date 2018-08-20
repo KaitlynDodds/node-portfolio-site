@@ -86,5 +86,23 @@ Create a portfolio site to showcase the great projects you've built. The site wi
 
 * Do not alter the layout or position of the important elements on the page.
 
+
+## Styling Customizations
+
+**Disabled button styling**
+
+Disabled buttons have a gray background and do not respond to hover triggers.
+
+**Site Color Themes**
+
+Changed site color themes (background, text color, link color, etc.)
+
+**Site Fonts**
+
+Changed font styling
+
+* Headings: Poiret One
+* Filler Text and Links: Open Sans Condensed
+
 **Completed:** N/A    
 **Grade:** N/A
