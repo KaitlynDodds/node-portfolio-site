@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/KaitlynDodds/node-portfolio-site/issues"
   },
+  "engines": {
+    "node": "9.2.1"
+  },
   "homepage": "https://github.com/KaitlynDodds/node-portfolio-site#readme",
   "dependencies": {
     "express": "^4.16.3",
