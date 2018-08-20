@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Pagination-and-Content-Filter",
+            "project_name": "Pagination and Content Filter",
             "description": "Use progressive enhancement to enhance the usability of a web page that has too much information.",
             "technologies": [
                 "HTML",
@@ -19,7 +19,7 @@
         },
         {
             "id": 1,
-            "project_name": "interactive-form",
+            "project_name": "Interactive Form",
             "description": "An interactive registration form for 'FullStack Conf.'. Use JavaScript to enhance the form by adding interactivity. Make the form more user-friendly by providing helpful error messages when the user enters invalid information into the form fields. ",
             "technologies": [
                 "JavaScript",
@@ -37,7 +37,7 @@
         },
         {
             "id": 2,
-            "project_name": "tic-tac-toe",
+            "project_name": "Tic-Tac-Toe",
             "description": "In this project, you'll build a functional, two-person Tic Tac Toe game. You'll use the provided mockups, HTML, CSS and image files to create a game that requires players to add their names, take turns adding an X or O to the game board, and announce when the game ends. You'll need to keep track of the state of the game -- whose turn it is, where the X's and O's are on the board, and whether the game is a draw or, if not, who won and lost.",
             "technologies": [
                 "JavaScript",
@@ -55,7 +55,7 @@
         },
         {
             "id": 3,
-            "project_name": "Public-API-Employee-Directory",
+            "project_name": "Public API Employee Directory",
             "description": "Use the Random User Generator API to grab information for 12 random 'employees', and use that data to build a prototype for an employee directory. You’ll request a JSON object from the API and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
             "technologies": [
                 "JavaScript",
@@ -74,7 +74,7 @@
         },
         {
             "id": 4,
-            "project_name": "node-content-scraper",
+            "project_name": "Node Content Scraper",
             "description": "A Node.js command line application that goes to an e-commerce site to get the latest prices and save them to a spreadsheet (CSV format).",
             "technologies": [
                 "JavaScript",
@@ -91,7 +91,7 @@
         },
         {
             "id": 5,
-            "project_name": "guess-the-phrase-game",
+            "project_name": "Guess the Phrase Game",
             "description": "Fun guess the phrase game (mimics wheel of fortune) created in html, css, and vanilla js.",
             "technologies": [
                 "JavaScript",
@@ -109,8 +109,8 @@
         },
         {
             "id": 6,
-            "project_name": "personal-portfolio-site",
-            "description": "Personal portfolio site",
+            "project_name": "Personal Portfolio Site",
+            "description": "Personal portfolio site that uses the GitHub API to list recent projects and the sites they link to.",
             "technologies": [
                 "JavaScript",
                 "HTML",
